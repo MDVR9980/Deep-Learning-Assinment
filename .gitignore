@@ -1,0 +1,62 @@
+# --- Python Virtual Environments ---
+# Your virtual environment folder is ai-env, but this covers common names.
+ai-env/
+venv/
+env/
+*env/
+*.env
+
+# --- Python Cache & Compiled Files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Jupyter Notebook Checkpoints ---
+# Temporary files created by Jupyter.
+.ipynb_checkpoints/
+
+# --- Data & Datasets ---
+# Ignore large data files. Store them elsewhere (e.g., cloud storage).
+# If you have a small, essential dataset, you can force-include it with: !my_small_dataset.csv
+*.csv
+*.json
+*.pkl
+*.data
+*.db
+*.sqlite3
+data/
+
+# --- Generated Files, Models & Output ---
+# Experiment results (like your curves_*.npz files)
+*.npz
+
+# Saved models from frameworks like Keras, PyTorch, etc.
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# Output plots and images (like your learning_curves_key_runs.png)
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Log files
+*.log
+
+# --- OS & Editor Specific Files ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDE Configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
